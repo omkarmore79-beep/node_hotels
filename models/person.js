@@ -34,6 +34,6 @@ const personschema = new mongoose.Schema(
     }
 )
 
-
+//persons
 const person = mongoose.model('person',personschema);
 module.exports = person;
