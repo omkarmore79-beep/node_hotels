@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-const mongourl = 'mongodb://localhost:27017/latest_db';
+//const mongourl = 'mongodb://localhost:27017/latest_db';
+const mongourl = 'mongodb+srv://omore5900_db_user:omkar2508@cluster0.4y5yjri.mongodb.net/';
+
 
 mongoose.connect(mongourl);
 
